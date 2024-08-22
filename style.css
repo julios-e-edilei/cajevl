@@ -99,7 +99,7 @@ nav {
 
 .nav__logo {
     display: flex;
-  max-width: 150px;
+  max-width: 175px;
 }
 
 .nav__links {
@@ -431,7 +431,7 @@ footer {
 }
 
 footer .flex {
-    justify-content: space-between;
+    position: relative;
 }
 
 footer .line-footer {
@@ -471,6 +471,7 @@ footer .line-footer p a {
     font-size: 0.8rem;
     color: var(--white);
   }
+
 
 @media (width < 900px) {
   .nav__links {
